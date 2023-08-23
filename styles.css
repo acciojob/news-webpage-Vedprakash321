@@ -1,1 +1,83 @@
 /*  your css code here. If applicable */
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+/* 	background-color:#fbfcfa; */
+/* 	background-color:#a2b3a2; */
+}
+/* Apply styles to the navigation bar */
+.main{
+	background-color: #f5f5f5;
+}
+.navbar {
+  background-color: #011e29;
+  padding: 10px;
+  text-align: center;
+
+  position: sticky;
+
+}
+.navbar a{
+  text-decoration: none;
+  color: white;
+  padding:20px;
+  
+  font-size:25px;
+  font-family: sans-serif;
+  font-weight: bolder;
+
+}
+.maintag{
+	
+	display: flex;
+	flex-direction:row ;
+	width:100%;
+
+}
+.first1{
+	width: 25%;
+	height:40%;
+/* 	border:2px solid red; */
+	background-color: white;
+	padding:10px 20px;
+	border-radius:5px;
+	padding-right:40px;
+	margin:5px;
+	background-color:white;
+
+}
+.second2{
+	width: 50%;
+	height:40%;
+/* 	border:2px solid yellow; */
+	padding:10px 20px;
+	border-radius:5px;
+
+	margin:5px;
+	background-color:white;
+
+}
+.third3{ 
+	width: 25%;
+	height:40%;
+/* 	border:2px solid aqua; */
+	padding:10px 20px;
+	border-radius:5px;
+
+	margin:5px;
+	item-align: center;
+	background-color:white;
+
+}
+.first1 ul{
+	padding-left: 30px;
+}
+.style{
+	text-align:center;
+	font-weight: bolder;
+}
+.third3 img{
+  display: block; /* Remove any extra whitespace */
+  margin: 0 auto;
+}
